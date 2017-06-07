@@ -8,7 +8,7 @@
  * 谷歌中国地图和搜搜中国地图采用的是GCJ02地理坐标系; BD09坐标系：即百度坐标系，GCJ02坐标系经加密后的坐标系; 
  * 搜狗坐标系、图吧坐标系等，估计也是在GCJ02基础上加密而成的。 chenhua 
  */  
-abstract  class GpsPositionTransform {  
+abstract  class CoordPositionTransform {  
       
     public static $BAIDU_LBS_TYPE = "bd09ll";  
       
